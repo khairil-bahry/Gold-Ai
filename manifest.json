@@ -1,0 +1,31 @@
+{
+  "name": "RiL Gold AI — Elite XAUUSD Trading Intelligence",
+  "short_name": "RiL Gold AI",
+  "description": "AI-powered XAUUSD (Gold) chart scanner & trading advisor. Runs entirely client-side; bring your own AI API key.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "portrait-primary",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "lang": "id",
+  "dir": "ltr",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "./icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Scan Chart Baru",
+      "short_name": "Scan",
+      "description": "Langsung buka scanner untuk analisa chart XAUUSD baru",
+      "url": "./index.html?action=scan",
+      "icons": [{ "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
